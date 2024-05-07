@@ -1,0 +1,44 @@
+[2024-05-07T06:21:38.727Z] info  code-server 4.23.1 9a28bc29dbddb6886dfe03dc1c31320249a901ce
+[2024-05-07T06:21:38.728Z] info  Using user-data-dir /root/.local/share/code-server
+[2024-05-07T06:21:38.746Z] info  Using config file /root/.config/code-server/config.yaml
+[2024-05-07T06:21:38.747Z] info  HTTP server listening on http://0.0.0.0:8080/
+[2024-05-07T06:21:38.747Z] info    - Authentication is enabled
+[2024-05-07T06:21:38.747Z] info      - Using password from $PASSWORD
+[2024-05-07T06:21:38.747Z] info    - Not serving HTTPS
+[2024-05-07T06:21:38.747Z] info  Session server listening on /root/.local/share/code-server/code-server-ipc.sock
+[07:04:36] 
+
+
+
+
+[07:04:36] Extension host agent started.
+[17:38:39] [104.133.8.108][107b77b1][ManagementConnection] New connection established.
+[17:38:41] [104.133.8.108][d88a1aeb][ExtensionHostConnection] New connection established.
+[17:38:41] [104.133.8.108][d88a1aeb][ExtensionHostConnection] <7926> Launched Extension Host Process.
+[19:20:40] [104.133.8.108][d88a1aeb][ExtensionHostConnection] The client has reconnected.
+[19:20:40] [104.133.8.108][107b77b1][ManagementConnection] The client has reconnected.
+[21:41:56] [104.133.8.108][107b77b1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[21:41:56] [104.133.8.108][d88a1aeb][ExtensionHostConnection] <7926> Extension Host Process exited with code: 0, signal: null.
+[21:41:57] [104.133.8.108][a47a125d][ManagementConnection] New connection established.
+[21:41:58] [104.133.8.108][ba8f31f2][ExtensionHostConnection] New connection established.
+[21:41:58] [104.133.8.108][ba8f31f2][ExtensionHostConnection] <32692> Launched Extension Host Process.
+[21:43:09] [104.133.8.108][a47a125d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[21:43:09] [104.133.8.108][ba8f31f2][ExtensionHostConnection] <32692> Extension Host Process exited with code: 0, signal: null.
+[21:43:11] [104.133.8.108][249bae40][ManagementConnection] New connection established.
+[21:43:12] [104.133.8.108][59a05f4f][ExtensionHostConnection] New connection established.
+[21:43:12] [104.133.8.108][59a05f4f][ExtensionHostConnection] <33337> Launched Extension Host Process.
+[21:43:14] [104.133.8.108][249bae40][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[21:43:23] [104.133.8.108][1826b26e][ManagementConnection] New connection established.
+[21:43:24] [104.133.8.108][f0216797][ExtensionHostConnection] New connection established.
+[21:43:24] [104.133.8.108][f0216797][ExtensionHostConnection] <33656> Launched Extension Host Process.
+[21:44:19] [104.133.8.108][1826b26e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[21:44:19] [104.133.8.108][f0216797][ExtensionHostConnection] <33656> Extension Host Process exited with code: 0, signal: null.
+[21:44:21] [104.133.8.108][dc7bacda][ManagementConnection] New connection established.
+[21:44:22] [104.133.8.108][cee77adc][ExtensionHostConnection] New connection established.
+[21:44:22] [104.133.8.108][cee77adc][ExtensionHostConnection] <34287> Launched Extension Host Process.
+[21:44:26] [104.133.8.108][dc7bacda][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[21:44:26] [104.133.8.108][cee77adc][ExtensionHostConnection] <34287> Extension Host Process exited with code: 0, signal: null.
+[21:44:27] [104.133.8.108][8b4f5c1a][ManagementConnection] New connection established.
+[21:44:28] [104.133.8.108][04476207][ExtensionHostConnection] New connection established.
+[21:44:28] [104.133.8.108][04476207][ExtensionHostConnection] <34742> Launched Extension Host Process.
+[21:48:23] [104.133.8.108][59a05f4f][ExtensionHostConnection] <33337> Extension Host Process exited with code: 0, signal: null.

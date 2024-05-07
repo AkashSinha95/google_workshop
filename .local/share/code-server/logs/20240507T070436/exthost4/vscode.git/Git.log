@@ -1,0 +1,23 @@
+2024-05-07 21:43:26.676 [info] Log level: Info
+2024-05-07 21:43:26.677 [info] Validating found git in: "git"
+2024-05-07 21:43:26.677 [info] Using git "2.34.1" from "git"
+2024-05-07 21:43:26.677 [info] > git rev-parse --show-toplevel [5ms]
+2024-05-07 21:43:26.677 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-05-07 21:43:26.677 [info] Open repository: /root/langflow-chat-host
+2024-05-07 21:43:26.677 [info] > git config --get commit.template [9ms]
+2024-05-07 21:43:26.677 [info] > git rev-parse --show-toplevel [5ms]
+2024-05-07 21:43:26.677 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-05-07 21:43:26.677 [warning] ENOENT: no such file or directory, open '/root/langflow-chat-host/.git/refs/remotes/origin/main'
+2024-05-07 21:43:26.677 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-05-07 21:43:26.677 [info] > git status -z -uall [5ms]
+2024-05-07 21:43:26.677 [info] > git merge-base refs/heads/main refs/remotes/origin/main [59ms]
+2024-05-07 21:43:26.679 [info] > git config --get commit.template [16ms]
+2024-05-07 21:43:26.680 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [5ms]
+2024-05-07 21:43:26.710 [info] > git diff --name-status -z --diff-filter=ADMR 99ebc91483a37a75ad63f70d76e4d3ca9513269b...refs/remotes/origin/main [16ms]
+2024-05-07 21:43:26.713 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-05-07 21:43:26.723 [warning] ENOENT: no such file or directory, open '/root/langflow-chat-host/.git/refs/remotes/origin/main'
+2024-05-07 21:43:26.725 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-05-07 21:43:26.741 [info] > git status -z -uall [5ms]
+2024-05-07 21:43:27.212 [info] > git check-ignore -v -z --stdin [1ms]
+2024-05-07 21:43:47.998 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2024-05-07 21:43:48.008 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [1ms]

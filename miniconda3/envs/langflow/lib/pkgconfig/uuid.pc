@@ -1,0 +1,11 @@
+prefix=/root/miniconda3/envs/langflow
+exec_prefix=/root/miniconda3/envs/langflow
+libdir=/root/miniconda3/envs/langflow/lib
+includedir=/root/miniconda3/envs/langflow/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

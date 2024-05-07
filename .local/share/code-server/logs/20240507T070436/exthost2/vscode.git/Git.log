@@ -1,0 +1,21 @@
+2024-05-07 21:42:03.549 [info] Log level: Info
+2024-05-07 21:42:03.549 [info] Validating found git in: "git"
+2024-05-07 21:42:03.549 [info] Using git "2.34.1" from "git"
+2024-05-07 21:42:03.549 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-07 21:42:03.549 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-05-07 21:42:03.549 [info] Open repository: /root/langflow-chat-host
+2024-05-07 21:42:03.549 [info] > git config --get commit.template [10ms]
+2024-05-07 21:42:03.549 [info] > git rev-parse --show-toplevel [4ms]
+2024-05-07 21:42:03.549 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-05-07 21:42:03.549 [warning] ENOENT: no such file or directory, open '/root/langflow-chat-host/.git/refs/remotes/origin/main'
+2024-05-07 21:42:03.549 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-05-07 21:42:03.560 [info] > git status -z -uall [3ms]
+2024-05-07 21:42:03.587 [info] > git merge-base refs/heads/main refs/remotes/origin/main [19ms]
+2024-05-07 21:42:03.600 [info] > git config --get commit.template [14ms]
+2024-05-07 21:42:03.602 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [6ms]
+2024-05-07 21:42:03.621 [info] > git diff --name-status -z --diff-filter=ADMR 99ebc91483a37a75ad63f70d76e4d3ca9513269b...refs/remotes/origin/main [11ms]
+2024-05-07 21:42:03.624 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-05-07 21:42:03.633 [warning] ENOENT: no such file or directory, open '/root/langflow-chat-host/.git/refs/remotes/origin/main'
+2024-05-07 21:42:03.636 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-05-07 21:42:03.647 [info] > git status -z -uall [2ms]
+2024-05-07 21:42:04.058 [info] > git check-ignore -v -z --stdin [2ms]

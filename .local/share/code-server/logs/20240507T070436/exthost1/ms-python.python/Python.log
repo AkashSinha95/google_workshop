@@ -1,0 +1,16 @@
+2024-05-07 17:40:51.141 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-05-07 17:40:51.141 [info] Experiment 'pythonREPLSmartSend' is active
+2024-05-07 17:40:51.141 [info] Experiment 'pythonSurveyNotification' is active
+2024-05-07 17:40:51.141 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-05-07 17:40:51.141 [info] Experiment 'pythonTestAdapter' is active
+2024-05-07 17:40:51.261 [info] Test server listening.
+2024-05-07 17:40:51.274 [info] > conda info --json
+2024-05-07 17:40:51.289 [info] Found: /bin/python3 --> /bin/python3.10
+2024-05-07 17:40:51.289 [info] Found: /bin/python3.10 --> /bin/python3.10
+2024-05-07 17:40:51.300 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2024-05-07 17:40:51.300 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2024-05-07 17:40:51.331 [info] > /bin/python3 -I ~/.local/share/code-server/extensions/ms-python.python-2024.4.1-universal/python_files/get_output_via_markers.py ~/.local/share/code-server/extensions/ms-python.python-2024.4.1-universal/python_files/interpreterInfo.py
+2024-05-07 17:40:51.350 [info] > /usr/bin/python3 -I ~/.local/share/code-server/extensions/ms-python.python-2024.4.1-universal/python_files/get_output_via_markers.py ~/.local/share/code-server/extensions/ms-python.python-2024.4.1-universal/python_files/interpreterInfo.py
+2024-05-07 17:40:51.773 [info] Python interpreter path: /bin/python3
+2024-05-07 17:40:52.595 [info] Shell integration status changed, can confirm it's working.
+2024-05-07 17:40:53.407 [info] Starting Jedi language server for default.

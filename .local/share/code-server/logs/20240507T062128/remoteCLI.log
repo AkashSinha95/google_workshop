@@ -1,0 +1,28 @@
+2024-05-07 06:21:28.564 [info] Started initializing default profile extensions in extensions installation folder. file:///root/.local/share/code-server/extensions
+2024-05-07 06:21:28.577 [info] Completed initializing default profile extensions in extensions installation folder. file:///root/.local/share/code-server/extensions
+2024-05-07 06:21:29.783 [info] Getting Manifest... ms-python.python
+2024-05-07 06:21:30.561 [info] Installing extension: ms-python.python
+2024-05-07 06:21:30.827 [info] Getting Manifest... ms-python.debugpy
+2024-05-07 06:21:31.564 [info] Installing extension: ms-python.debugpy
+2024-05-07 06:21:34.789 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code-server/lib/vscode/out/bootstrap-amd.js
+- /usr/lib/code-server/out/node/util.js
+- /usr/lib/code-server/out/node/cli.js
+- /usr/lib/code-server/out/node/entry.js
+2024-05-07 06:21:34.790 [info] Extension signature verification is not done: ms-python.debugpy
+2024-05-07 06:21:35.289 [info] Extracted extension to file:///root/.local/share/code-server/extensions/ms-python.debugpy-2024.6.0-linux-x64: ms-python.debugpy
+2024-05-07 06:21:35.296 [info] Renamed to /root/.local/share/code-server/extensions/ms-python.debugpy-2024.6.0-linux-x64
+2024-05-07 06:21:35.299 [info] Extracting extension completed. ms-python.debugpy
+2024-05-07 06:21:35.602 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code-server/lib/vscode/out/bootstrap-amd.js
+- /usr/lib/code-server/out/node/util.js
+- /usr/lib/code-server/out/node/cli.js
+- /usr/lib/code-server/out/node/entry.js
+2024-05-07 06:21:35.603 [info] Extension signature verification is not done: ms-python.python
+2024-05-07 06:21:37.890 [info] Extracted extension to file:///root/.local/share/code-server/extensions/ms-python.python-2024.4.1-universal: ms-python.python
+2024-05-07 06:21:37.919 [info] Renamed to /root/.local/share/code-server/extensions/ms-python.python-2024.4.1-universal
+2024-05-07 06:21:37.925 [info] Extracting extension completed. ms-python.python
+2024-05-07 06:21:37.931 [info] Extension installed successfully: ms-python.debugpy
+2024-05-07 06:21:37.931 [info] Extension installed successfully: ms-python.python
